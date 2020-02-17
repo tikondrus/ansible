@@ -421,7 +421,7 @@ EXAMPLES = r'''
     folder: /DC1/vm/
     name: test_vm_0001
     state: poweredon
-    guest_id: centos64Guest
+    guest_id: centos7Guest
     # This is hostname of particular ESXi server on which user wants VM to be deployed
     esxi_hostname: "{{ esxi_hostname }}"
     disk:
